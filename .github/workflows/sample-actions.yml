@@ -1,0 +1,12 @@
+name: github-actions-cypress
+on: [push]
+jobs:
+  run-cypress-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "14"
+      - run: npm install
+      - run: npx cypress run
