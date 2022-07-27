@@ -1,0 +1,27 @@
+{
+  "name": "cypress-sample-project",
+  "version": "1.0.0",
+  "description": "This is a base project to practice cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tite54296/cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "e2e"
+  ],
+  "author": "Katherine Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tite54296/cypress/issues"
+  },
+  "homepage": "https://github.com/tite54296/cypress#readme",
+  "devDependencies": {
+    "cypress": "^10.3.1",
+    "typescript": "^4.7.4"
+  }
+}
